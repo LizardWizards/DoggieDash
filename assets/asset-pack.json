@@ -2,14 +2,54 @@
     "section1": {
         "files": [
             {
-                "url": "assets/dino.png",
-                "type": "image",
-                "key": "dino"
-            },
-            {
                 "url": "assets/Level.js",
                 "type": "sceneFile",
                 "key": "Level"
+            },
+            {
+                "url": "assets/Images/dog table.jpeg.png",
+                "type": "image",
+                "key": "dog table.jpeg"
+            },
+            {
+                "url": "assets/Images/flo.jpg.png",
+                "type": "image",
+                "key": "flo.jpg"
+            },
+            {
+                "url": "assets/Images/fuzzyDog.png",
+                "type": "image",
+                "key": "fuzzyDog"
+            },
+            {
+                "url": "assets/Images/hatDog.png",
+                "type": "image",
+                "key": "hatDog"
+            },
+            {
+                "url": "assets/Images/table.png",
+                "type": "image",
+                "key": "table"
+            },
+            {
+                "url": "assets/Images/tub.png",
+                "type": "image",
+                "key": "tub"
+            },
+            {
+                "url": "assets/Images/yard.jpg",
+                "type": "image",
+                "key": "yard"
+            },
+            {
+                "url": "assets/prefabs/Dog.js",
+                "type": "script",
+                "key": "Dog"
+            },
+            {
+                "url": "assets/prefabs/Station.js",
+                "type": "script",
+                "key": "Station"
             }
         ]
     },

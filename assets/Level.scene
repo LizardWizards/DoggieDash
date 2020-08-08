@@ -7,25 +7,83 @@
     },
     "displayList": [
         {
-            "type": "Image",
-            "id": "7d5827fd-34f6-473f-90e0-b9424a51d5fa",
-            "label": "dino",
-            "texture": {
-                "key": "dino"
-            },
-            "x": 400,
-            "y": 300
-        },
-        {
             "type": "Text",
             "id": "b2b3dbd5-2106-41fa-8a04-9b511e3401a9",
             "label": "text_1",
+            "components": [],
             "x": 400,
             "y": 450,
             "originY": 0,
             "text": "Welcome to Phaser Editor 2D!",
             "fontSize": "30px",
             "fontStyle": "bold"
+        },
+        {
+            "type": "Image",
+            "id": "ab67a31b-4fbc-4fe0-8633-509fe972eadc",
+            "label": "yard",
+            "components": [],
+            "texture": {
+                "key": "yard"
+            },
+            "x": 401,
+            "y": 291,
+            "scaleX": 1.2415074331576714,
+            "scaleY": 1.2415074331576714
+        },
+        {
+            "type": "Container",
+            "id": "6408a0b0-df5f-477c-914f-77f22a7f2f38",
+            "label": "container_1",
+            "components": [],
+            "x": 51,
+            "y": 361,
+            "list": [
+                {
+                    "prefabId": "a13c02a6-a0b3-48bd-bdd9-4a9bb7c4faa0",
+                    "id": "3bebbd8f-8930-40de-b638-9d4872bfed63",
+                    "label": "dog1",
+                    "components": [],
+                    "x": 141,
+                    "y": -224
+                },
+                {
+                    "prefabId": "57f42152-9ff4-40b3-b439-70b91042ab9c",
+                    "id": "1a153018-dfff-4e3c-98d5-8a835b20a046",
+                    "unlock": [
+                        "Type"
+                    ],
+                    "label": "haircut_station",
+                    "Type": "Haircut",
+                    "components": [],
+                    "x": 649,
+                    "y": -48
+                },
+                {
+                    "prefabId": "57f42152-9ff4-40b3-b439-70b91042ab9c",
+                    "id": "0cd00c5b-4013-4cb4-a2a1-eb1f391e5f88",
+                    "unlock": [
+                        "Type"
+                    ],
+                    "label": "bath_station",
+                    "Type": "Bath",
+                    "components": [],
+                    "x": 364,
+                    "y": -61
+                },
+                {
+                    "prefabId": "57f42152-9ff4-40b3-b439-70b91042ab9c",
+                    "id": "b020e439-afb6-4399-b487-fd5f106b3496",
+                    "unlock": [
+                        "Type"
+                    ],
+                    "label": "cashier_station",
+                    "Type": "Cashier",
+                    "components": [],
+                    "x": 74,
+                    "y": 76
+                }
+            ]
         }
     ],
     "meta": {

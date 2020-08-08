@@ -1,0 +1,65 @@
+{
+    "id": "57f42152-9ff4-40b3-b439-70b91042ab9c",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": ""
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "ae808f76-a030-46ce-a185-8ecec4882cf2",
+            "label": "container_1",
+            "components": [],
+            "x": 353,
+            "y": 319,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "9d6c1db2-d980-465a-90a1-fea46bfc67c4",
+                    "label": "table",
+                    "components": [],
+                    "texture": {
+                        "key": "table"
+                    }
+                },
+                {
+                    "type": "Image",
+                    "id": "5f35608e-70c5-4b00-9d91-6869ecb3b079",
+                    "label": "Bath",
+                    "components": [],
+                    "texture": {
+                        "key": "tub"
+                    }
+                },
+                {
+                    "type": "Image",
+                    "id": "e971ebdc-d3ac-4d74-8495-4b4f78f352c5",
+                    "label": "Haircut",
+                    "components": [],
+                    "texture": {
+                        "key": "dog table.jpeg"
+                    },
+                    "y": 14
+                }
+            ]
+        }
+    ],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType"
+    },
+    "prefabProperties": [
+        {
+            "name": "Type",
+            "label": "Type",
+            "tooltip": "Type",
+            "defValue": "",
+            "type": {
+                "id": "string"
+            }
+        }
+    ]
+}
